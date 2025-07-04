@@ -1,6 +1,25 @@
-# Configuration ZSH Avancée avec Git et FZF
+# ZSH PowerKit 🚀
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![ZSH](https://img.shields.io/badge/ZSH-5.0%2B-green.svg)](https://www.zsh.org/)
+[![Git](https://img.shields.io/badge/Git-integrated-orange.svg)](https://git-scm.com/)
+[![FZF](https://img.shields.io/badge/FZF-enhanced-purple.svg)](https://github.com/junegunn/fzf)
 
 Une configuration zsh riche et moderne avec intégration Git, FZF et de nombreuses fonctionnalités pour améliorer votre productivité en ligne de commande.
+
+## 🌟 Pourquoi ZSH PowerKit ?
+
+- 🔥 **Prêt à l'emploi** - Configuration complète en quelques minutes
+- 🎯 **Axé productivité** - Workflow Git optimisé et navigation FZF
+- 🎨 **Interface moderne** - Prompt intelligent avec couleurs et symboles
+- 🚀 **Extensible** - Facile à personnaliser et étendre
+- 📚 **Documentation complète** - Guide détaillé et exemples d'usage
+
+## 📸 Aperçu
+
+![Terminal avec ZSH PowerKit](screenshots/terminal-preview.png)
+
+*Prompt intelligent avec statut Git en temps réel et fonctions FZF intégrées*
 
 ## ✨ Fonctionnalités
 
@@ -74,14 +93,23 @@ chsh -s /usr/bin/zsh
 ### 2. Installation de la configuration
 
 ```bash
+# Cloner le repository
+git clone https://github.com/username/zsh-powerkit.git
+cd zsh-powerkit
+
 # Sauvegarder votre configuration actuelle (optionnel)
 cp ~/.zshrc ~/.zshrc.backup
 
-# Copier le fichier de configuration
-cp paste.txt ~/.zshrc
+# Installer la nouvelle configuration
+cp .zshrc ~/.zshrc
 
 # Recharger la configuration
 source ~/.zshrc
+```
+
+#### Installation rapide (une ligne)
+```bash
+curl -fsSL https://raw.githubusercontent.com/edelaunay/zsh-powerkit/main/install.sh | bash
 ```
 
 ### 3. Configuration Git (première utilisation)
@@ -272,8 +300,17 @@ N'hésitez pas à adapter cette configuration à vos besoins ! Vous pouvez :
 - Créer de nouvelles fonctions FZF
 - Adapter le prompt à vos préférences
 
+### Comment contribuer
+1. Fork le projet
+2. Créer une branche pour votre fonctionnalité (`git checkout -b feature/ma-fonctionnalite`)
+3. Commiter vos changements (`git commit -am 'Ajout de ma fonctionnalité'`)
+4. Pusher vers la branche (`git push origin feature/ma-fonctionnalite`)
+5. Créer une Pull Request
+
 ## 📄 Licence
 
 MIT License © 2025 edelaunay
 
 Cette configuration est libre d'utilisation et de modification. Si vous trouvez ce projet utile, une petite ⭐ sur GitHub serait appréciée !
+
+Voir le fichier [LICENSE](LICENSE) pour les détails complets.
